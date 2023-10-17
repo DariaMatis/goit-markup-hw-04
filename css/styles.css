@@ -164,6 +164,7 @@ header {
 
 .main-section-content button {
   background-color: #188ce8;
+  color: var(--text-dark-bg-color);
   width: 200px;
   padding: 10px 19px 10px 20px;
   white-space: nowrap;
@@ -291,14 +292,14 @@ ul.customers-section {
   margin: 0;
   gap: 30px;
 }
-.submenu> h3 {
+.submenu > h3 {
   font-size: 18px;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 1.08px;
   margin: 20px 24px 0 24px;
 }
-.submenu> h4 {
+.submenu > h4 {
   color: var(--shaded-color);
   line-height: 30px;
   letter-spacing: 0.48px;
