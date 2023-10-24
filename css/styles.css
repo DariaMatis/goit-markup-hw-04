@@ -5,6 +5,7 @@
   --text-bg-color: #212121;
   --link-color-active: #2196f3;
   --shaded-color: #757575;
+  --svg-shaded-color: #afb1b8;
 }
 body {
   width: 1600px;
@@ -367,14 +368,16 @@ ul.customers-section {
   border: 1px solid #afb1b8;
 }
 .logo-card svg {
-  width: 106px;
+  width: 104px;
   height: 60px;
-  fill: var(--shaded-color);
 }
+
 .logo-card:hover,
-.logo-card:focus,
-.logo-card svg:hover,
-.logo-card svg:focus {
+.logo-card:focus {
   border-color: var(--link-color-active);
   fill: var(--link-color-active);
+}
+
+.logo-card {
+  padding: 15px 30px;
 }
